@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    width: 900px;
+    height: auto;
+}
+
+.header{
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.header li {
+    margin-left: 20px;
+}
+.list{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.middlecontent{
+    /* background-color: aliceblue; */
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.box1{
+flex-grow: 1;
+margin-left: 10px;
+}
+
+
+.box2 label{
+    font-weight:bold;
+}
+
+
+
+.box3 h4{
+    color: rgb(228, 108, 176);
+}
+
+#amestimg{
+    height: 300px;
+    width: 500px;
+}
+#lady{
+
+width: 50px;
+}
+
+/* #losangels{
+    width: 100px;
+    height: 100px;
+} */
+
+.lonelybox{
+    margin-left: 10px;
+}
+
+.lonelybox h4{
+    color: rgb(228, 108, 176);
+}
+#losangels,#washington,#paris,#sanfransisco{
+    width: 200px;
+    height: 100px;
+}
+/* 
+#paris{
+    width: 100px;;
+    height: 100px;;
+
+} */
+.box3{
+    flex-grow: 1;
+    margin-top: 10px;
+}
+
+.newslogos{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 900px;
+}
+.middlecontent #inputnumber{
+    border-radius: 3px;
+    width: 50px;
+    
+}
+
+.newslogos img {
+    width: 100px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+.newslogos h4{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px ridge lightgrey;
+}
+
+
+.footer{
+    margin-left: 20px;
+}
+
+.copyright{
+    margin-top: 10px;
+}
